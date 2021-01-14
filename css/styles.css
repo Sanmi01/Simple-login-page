@@ -43,5 +43,11 @@ nav ul li {
 }
 
 .container {
+    position: relative;
+    height: 100%;
+}
+
+.container div {
     text-align: center;
+    padding: 10rem;
 }
