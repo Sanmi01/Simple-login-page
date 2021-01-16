@@ -148,3 +148,9 @@ nav ul li:hover {
     text-decoration: none;
     color: #1a237e;
 }
+
+@media(max-width: 650px) {
+    .form {
+        width: 80%;
+    }
+}
