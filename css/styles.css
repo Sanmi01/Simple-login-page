@@ -19,7 +19,6 @@ nav {
     height: 64px;
     line-height: 64px;
     padding-left: 2%;
-    padding-right: 2%;
 }
 
 nav a {
@@ -31,13 +30,19 @@ nav ul {
     float: right;
 }
 
-nav ul li {
+nav a ul li {
+    width: 100%;
     list-style: none;
-    font-size: 1rem;
+    font-size: 14px;
+    padding-right: 2rem;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
   align-items: center;
   justify-content: center
@@ -49,12 +54,30 @@ nav ul li {
 
 .container {
     position: relative;
-    height: 100%;
+    /* height: 100%; */
+    margin-top: 7rem;
 }
 
 .container .sign {
     padding: 1rem;
     text-align: center;
+}
+
+.sign img {
+    width: 60px;
+    max-width: 100%;
+}
+
+.sign h4 {
+    margin: 1.52rem 0 0.912rem 0;
+    color: #1a237e;
+    font-size: 2.28rem;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+.sign p {
+    font-size: 14px;
 }
 
 .form-container {
@@ -66,6 +89,9 @@ nav ul li {
 .form {
     padding: 30px 40px;
     background-color: #fff;
+    width: 38%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .form-control {
@@ -88,4 +114,21 @@ nav ul li {
     width: 100%;
     padding: 10px;
     font-size: 14px;
+}
+
+.form-control input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #1a237e;
+}
+
+.forgot {
+    text-align: center;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.forgot a {
+    text-decoration: none;
+    color: #1a237e;
 }
