@@ -120,6 +120,8 @@ nav ul li:hover {
     outline: none;
     border: none;
     border-bottom: 3px solid #1a237e;
+    padding-top: 1.3rem;
+    transition: 0.35s;
 }
 
 .button-div {
