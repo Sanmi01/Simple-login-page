@@ -122,6 +122,22 @@ nav ul li:hover {
     border-bottom: 3px solid #1a237e;
 }
 
+.button-div {
+    text-align: center;
+}
+
+.button {
+    width: 50%;
+    font-weight: 700;
+    height: 40px;
+    background-color: #1a237e;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    border: none;
+    border-radius: 2px;
+}
+
 .forgot {
     text-align: center;
     margin: 15px;
