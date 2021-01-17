@@ -34,8 +34,8 @@ nav a ul li {
     width: 100%;
     list-style: none;
     font-size: 14px;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
 }
 
 nav ul li:hover {
